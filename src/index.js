@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelector('form').addEventListener('submit', (e) => {
-    e.preventDefault()
-    debugger 
+    e.preventDefault() 
     handleTask(document.getElementById("new-task-description").value)
   })
 });
